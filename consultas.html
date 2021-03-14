@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="es"> <!--Página española-->
+  <head>
+    <title>Consultas</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <!--Barra de navegación-->
+  <body class="flex-column d-flex">
+    <nav id="navbar-example2" class="navbar navbar-light bg-light">
+      <a class="navbar-brand" href="bienvenido.html">Inicio</a>
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <div class="dropdown nav-link">
+            <!--Menú desplegable-->
+            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Usuario
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Perfil</a>
+              <a class="dropdown-item" href="#">Comunidad</a>
+              <a class="dropdown-item" href="login.html">Cerrar sesión</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <!--Menú desplegable del usuario-->
+    <div class="container-fluid flex-grow-1">
+      <div class="row h-100 pt-3">
+        <div class="col-md-auto">
+          <div class="list-group">
+            <a type="button" href="bienvenido.html" class="list-group-item list-group-item-action">Principal</a>
+            <a type="button" href="consultas.html" class="list-group-item list-group-item-action active">Consultas</a>
+            <a type="button" class="list-group-item list-group-item-action">Añadir entrada</a>
+            <a type="button" class="list-group-item list-group-item-action">Modificar entrada</a>
+          </div>
+        </div>
+        <div class="col">
+          <!--Tabla de consultas-->
+          <table class="table">
+            <thead>
+              <tr>
+                <!--Títulos de las columnas-->
+                <th scope="col">#</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Apellido</th>
+                <th scope="col">Dirección</th>
+                <th scope="col">Teléfono</th>
+                <th scope="col">Modificar</th>
+                <th scope="col">Eliminar</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!--Fila 1-->
+              <tr>
+                <th scope="row">1</th>
+                <td>Nom1</td>
+                <td>Ape1</td>
+                <td>@email1</td>
+                <td>Tlf1</td>
+                <td><!--Botón de edición-->
+                  <a href="modificarEntrada.html" type="button" class="btn btn-primary">
+                    <i class="fa fa-edit"></i>
+                  </a> 
+                </td>
+                <td><!--Botón de eliminar-->
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleFormulario">
+                    <i class="fa fa-trash"></i>
+                  </button> 
+                </td>
+              </tr>
+              <!--Fila 2-->
+              <tr>
+                <th scope="row">2</th>
+                <td>Nom2</td>
+                <td>Ape2</td>
+                <td>@email2</td>
+                <td>Tlf2</td>
+                <td><!--Botón de edición-->
+                  <a href="modificarEntrada.html" type="button" class="btn btn-primary">
+                    <i class="fa fa-edit"></i>
+                  </a> 
+                </td>
+                <td><!--Botón de eliminar-->
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleFormulario">
+                    <i class="fa fa-trash"></i>
+                  </button> 
+                </td>
+              </tr>
+              <!--Fila 3-->
+              <tr>
+                <th scope="row">3</th>
+                <td>Nom3</td>
+                <td>Ape3</td>
+                <td>@email3</td>
+                <td>Tlf3</td>
+                <td><!--Botón de edición-->
+                  <a href="modificarEntrada.html" type="button" class="btn btn-primary">
+                    <i class="fa fa-edit"></i>
+                  </a> 
+                </td>
+                <td><!--Botón de eliminar-->
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleFormulario">
+                    <i class="fa fa-trash"></i>
+                  </button> 
+                </td>
+              </tr>
+              <!--Fila 4-->
+              <tr>
+                <th scope="row">4</th>
+                <td>Nom4</td>
+                <td>Ape4</td>
+                <td>@email4</td>
+                <td>Tlf4</td>
+                <td><!--Botón de edición-->
+                  <a href="modificarEntrada.html" type="button" class="btn btn-primary">
+                    <i class="fa fa-edit"></i>
+                  </a> 
+                </td>
+                <td><!--Botón de eliminar-->
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleFormulario">
+                    <i class="fa fa-trash"></i>
+                  </button> 
+                </td>
+              </tr>
+              <!--Fila 5-->
+              <tr>
+                <th scope="row">5</th>
+                <td>Nom5</td>
+                <td>Ape5</td>
+                <td>@email5</td>
+                <td>Tlf5</td>
+                <td><!--Botón de edición-->
+                  <a href="modificarEntrada.html" type="button" class="btn btn-primary">
+                    <i class="fa fa-edit"></i>
+                  </a> 
+                </td>
+                <td><!--Botón de eliminar-->
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleFormulario">
+                    <i class="fa fa-trash"></i>
+                  </button> 
+                </td>
+              </tr>
+              <!--Fila 6-->
+              <tr>
+                <th scope="row">6</th>
+                <td>Nom6</td>
+                <td>Ape6</td>
+                <td>@email6</td>
+                <td>Tlf6</td>
+                <td><!--Botón de edición-->
+                  <a href="modificarEntrada.html" type="button" class="btn btn-primary">
+                    <i class="fa fa-edit"></i>
+                  </a> 
+                </td>
+                <td><!--Botón de eliminar-->
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleFormulario">
+                    <i class="fa fa-trash"></i>
+                  </button> 
+                </td>
+              </tr>
+              <tr><!--Botón de añadir-->
+                <th scope=row">
+                  <a href="añadirEntrada.html"><i class="fa fa-plus"></i></a>
+                </th>
+              </tr>
+            </tbody>
+          </table>
+          <!--Diálogo del modal-->
+          <div class="modal fade" id="exampleFormulario" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">¿Está seguro?</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>Este cambio es irreversible.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                  <button type="button" class="btn btn-primary">Eliminar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

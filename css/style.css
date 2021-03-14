@@ -1,0 +1,120 @@
+html,
+body {
+  background-size: cover; /*Tamaño del fondo*/
+  background-repeat: no-repeat; /*Que no se repita el fondo*/
+  height: 100%; /*Altura 100%*/
+  font-family: Arial, Helvetica, sans-serif; /*Tipo de fuente*/
+}
+
+body.login {
+  background-image: url("http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg"); /*Imagen de fondo*/
+}
+
+.container {
+  height: 100%; /*Altura 100%*/
+  align-content: center; /*Centrar el texto*/
+}
+
+.card {
+  height: 370px; /*Altura*/
+  margin-top: auto; /*Margen de parte de arriba*/
+  margin-bottom: auto; /*Margen de parte baja*/
+  width: 400px; /*Anchura*/
+  background-color: rgba(0, 0, 0, 0.5) !important; /*Color del fondo*/
+}
+
+.social_icon span {
+  font-size: 60px; /*Tamaño de fuente*/
+  margin-left: 10px; /*Margen de la izquierda*/
+  color: #ffc312; /*Color del icono*/
+}
+
+.social_icon span:hover { /*Ratón encima del icono*/
+  color: white; /*Color*/
+  cursor: pointer; /*Tipo de cursor*/
+}
+
+.card-header h3 {
+  color: white; /*Color*/
+}
+
+.social_icon {
+  position: absolute; /*Superposición*/
+  right: 20px; /*Margen manual de derecha*/
+  top: -45px; /*Margen manual de arriba*/
+}
+
+.input-group-prepend span {
+  width: 50px; /*Anchura*/
+  background-color: #ffc312; /*Color de fondo*/
+  color: black; /*Color*/
+  border: 0 !important; /*Tipo de borde*/
+}
+
+input:focus {
+  outline: 0 0 0 0 !important;
+  box-shadow: 0 0 0 0 !important; /*Sombra de la caja*/
+}
+
+.remember {
+  color: white; /*Color*/
+}
+
+.remember input {
+  width: 20px; /*Anchura*/
+  height: 20px; /*Altura*/
+  margin-left: 15px; /*Margen izquierdo*/
+  margin-right: 5px; /*Margen derecho*/
+}
+
+.login_btn {
+  color: black; /*Color*/
+  background-color: #ffc312; /*Color del fondo*/
+  width: 100px; /*Anchura*/
+}
+
+.login_btn:hover {
+    color: black; /*Color*/
+    background-color: white; /*Color de fondo*/
+}
+
+.links {
+    color: white; /*Color*/
+}
+
+.links a {
+    margin-left: 4px; /*Margen de izquierda*/
+}
+.hero-image {
+  background-image: url("../imagenes/basededatos.jpg"); /*Imagen de fondo*/
+  height: 100%; /*Altura*/
+  background-position: center; /*Posición del fondo*/
+  background-repeat: no-repeat; /*Si el fondo se repite*/
+  background-size: cover; /*Tamaño del fondo*/
+  position: relative; /*Superposición del fondo*/
+}
+
+.hero-text {
+  text-align: center; /*Alineación del texto*/
+  position: absolute; /*Superposición*/
+  top: 50%; /*Margen de la parte superior manual*/
+  left: 50%; /*Margen de la parte izquierda manual*/
+  transform: translate(-50%, -50%); /*Traducción*/
+  color: white; /*Color*/
+}
+
+.hero-text button {
+  border: none; /*Tipo de borde*/
+  outline: 0;
+  display: inline-block; /*Estado de atributo*/
+  padding: 10px 25px; /*Margen*/
+  color: black; /*Color*/
+  background-color: #ddd; /*Color de fondo*/
+  text-align: center; /*Alineación de elementos*/
+  cursor: pointer; /*Tipo de cursor*/
+}
+
+.hero-text button:hover {
+  background-color: #555; /*Color de fondo*/
+  color: white; /*Color*/
+}
