@@ -7,7 +7,7 @@ body {
 }
 
 body.login {
-  background-image: url('../imagenes/index.jpg'); /*Imagen de fondo*/
+  background-image: url('../imagenes/indexfondo.jpg'); /*Imagen de fondo*/
   background-color: black; /*Color*/
 }
 
